@@ -1031,6 +1031,11 @@
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
   integrity sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==
 
+"@libphp/amazon-linux-2-v81@latest":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@libphp/amazon-linux-2-v81/-/amazon-linux-2-v81-0.0.1.tgz#57270261d9da2d0abf162c4732465a2623b5bc8a"
+  integrity sha512-cR7w79FZr91x1ur0eR5DWX+Wb1hDuYdxzka6vIzUMMmsuW1NBaEpwDQu4icJizNVS26NwpUtDTJGIoEomBiYxA==
+
 "@mapbox/node-pre-gyp@^1.0.5":
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/@mapbox/node-pre-gyp/-/node-pre-gyp-1.0.10.tgz#8e6735ccebbb1581e5a7e652244cadc8a844d03c"
@@ -7119,6 +7124,13 @@ vary@^1, vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
+
+vercel-php@^0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/vercel-php/-/vercel-php-0.5.2.tgz#13b2498ab74cfeca0770881959dad8c819a899eb"
+  integrity sha512-N4Ty0nD6s855hdDZhATAdRtku9hKfZtzZjT8xWbZgp+WQedPsJ3QWl/fX7nk6y/bcOOgL+H2CaBSd1zPjKi9TQ==
+  dependencies:
+    "@libphp/amazon-linux-2-v81" latest
 
 vercel@^28.5.5:
   version "28.5.5"
