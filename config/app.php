@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Chefit'),
+    'name' => env('APP_NAME', 'Laravel'),
 
     /*
     |--------------------------------------------------------------------------
@@ -52,7 +52,15 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://127.0.0.1:8000'),
+    'url' => env('APP_URL', 'http://localhost'),
+
+    'frontend_url' => env('FRONTEND_URL', 'http://localhost:3000'),
+
+    'frontend_url' => env('FRONTEND_URL', 'http://localhost:3000'),
+
+    'frontend_url' => env('FRONTEND_URL', 'http://localhost:3000'),
+
+    'frontend_url' => env('FRONTEND_URL', 'http://localhost:3000'),
 
     'asset_url' => env('ASSET_URL', null),
 

@@ -23,6 +23,7 @@
         "laravel/jetstream": "^2.3",
         "laravel/sanctum": "^2.6",
         "laravel/tinker": "^2.5",
+        "laravel/ui": "^3.4",
         "league/flysystem-aws-s3-v3": "~1.0",
         "league/flysystem-cached-adapter": "~1.0",
         "league/flysystem-sftp": "~1.0",
@@ -39,6 +40,7 @@
     "require-dev": {
         "facade/ignition": "^2.5",
         "fakerphp/faker": "^1.9.1",
+        "laravel/breeze": "^1.10",
         "laravel/sail": "^1.0.1",
         "laravel/telescope": "^4.6",
         "mbezhanov/laravel-faker-provider-collection": "^2.0",
